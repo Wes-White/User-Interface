@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+}
+h1{
+	font-size: 60px;
+	width: 49%;
+	height: 49%;
+	padding: 40px;
+	display: inline-block;
+	text-align: center;
+}
+.navigation{
+	width:100%;
+	display: inline;
+}
+
+h2 {
+	padding-bottom: 20px;
+}
+
+.navigation a {
+    padding: 30px;
+    border: 0;
+    font-size: 100%;
+	color: grey;
+	text-decoration: none;
+	list-style-type: none;
+	margin: auto;
+	position: relative;
+	display: inline-block;
+
+}
+.button{
+	margin-left: 80px;
+	width: 160px;
+	height: 40px;
+	font-size: 20px;
+	padding: 5px;
+    border: 1px solid black;
+	text-align: center;
+	
+}
+.navImage{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 70px;
+	
+}
+
+.headContainer {
+	width: 100%;
+	padding:100px;
+}
+.headImg {
+	position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 100%ß;
+    padding: 10px;
+}
+.topContent{
+	border-top: 1px solid black;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.features{
+	width: 49%;
+	display: inline;
+	padding: 20px;
+	float: left;
+}
+
+.about{
+	width: 49%;
+	display: inline;
+	padding: 20px;
+	float: left;
+}
+.bottomContent{
+	border-bottom: 1px solid black;
+	padding: 30px;
+	overflow: hidden	
+}
+
+.services {
+	width:33%;
+	float: left;
+}
+.products{
+	width:33%;
+	float: left;
+}
+.vision {
+	width:33%;
+	float: left;
+}
+.class{
+	display: block
+}
+
+.middle-img{
+	width:100%;
+}
+
+.contact{
+	padding: 30px;
+	display: block;
+	line-height: 30px;
+}
+.address{
+	
+}
+.phone{
+	padding: 40px;
+}
+.footer{
+	text-align: center;
+}
